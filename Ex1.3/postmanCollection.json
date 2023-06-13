@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "3e120904-554e-4ce8-a4b1-aedab22c5b5c",
+		"name": "Java_Sprint_4.1.3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23569225"
+	},
+	"item": [
+		{
+			"name": "Maven",
+			"item": [
+				{
+					"name": "HelloWorld Unknown",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/HelloWorld",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"HelloWorld"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HelloWorld Guillem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/HelloWorld?nom=Guillem",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"HelloWorld"
+							],
+							"query": [
+								{
+									"key": "nom",
+									"value": "Guillem"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HelloWorld2 Unknown",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/HelloWorld2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"HelloWorld2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HelloWorld2 Guillem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/HelloWorld2/Guillem",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"HelloWorld2",
+								"Guillem"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Gradle",
+			"item": [
+				{
+					"name": "HelloWorld Unknown",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9001/HelloWorld",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9001",
+							"path": [
+								"HelloWorld"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HelloWorld Guillem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9001/HelloWorld?nom=Guillem",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9001",
+							"path": [
+								"HelloWorld"
+							],
+							"query": [
+								{
+									"key": "nom",
+									"value": "Guillem"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HelloWorld2 Unknown",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9001/HelloWorld2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9001",
+							"path": [
+								"HelloWorld2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HelloWorld2 Guillem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9001/HelloWorld2/Guillem",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9001",
+							"path": [
+								"HelloWorld2",
+								"Guillem"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
